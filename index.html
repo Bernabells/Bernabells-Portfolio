@@ -1,0 +1,152 @@
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>Mypersonal Website</title>
+    <link rel="stylesheet" href="assets/style.css" />
+    <link
+      href="https://unpkg.com/boxicons@2.1.4/css/boxicons.min.css"
+      rel="stylesheet"
+    />
+    <script src="https://unpkg.com/feather-icons"></script>
+  </head>
+  <body>
+    <header>
+      <div class="logo">
+        <h1 class="header_logo">BerNnnN</h1>
+      </div>
+      <nav class="nav" id="nav-menu">
+        <i data-feather="x" class="close" id="close-menu"></i>
+        <ul class="nav_list">
+          <li class="nav_item"><a href="#content" class="nav_link">Home</a></li>
+          <li class="nav_item"><a href="#about" class="nav_link">About</a></li>
+          <li class="nav_item">
+            <a href="#Project" class="nav_link">Projects</a>
+          </li>
+          <li class="nav_item">
+            <a href="#contact" class="nav_link">Contact</a>
+          </li>
+        </ul>
+      </nav>
+      <i data-feather="menu" class="toggle" id="toggle-menu"></i>
+    </header>
+    <section class="content" id="content">
+      <div class="wrapper">
+        <div class="hero">
+          <h3>Hello,</h3>
+          <p>I'm Bernadeth Bañaga</p>
+          <h3>"I never dream for success, <br> work for it."</h3>
+          <button>
+            <span>Hire me</span>
+          </button>
+        </div>
+        <div class="content-img">
+          <img src="assets/logo.jpg" />
+        </div>
+      </div>
+    </section>
+
+    <!--About-->
+    <section class="About-Contanier" id="about">
+      <h2>About Me</h2>
+     
+      <div class="about-wrapper">
+        <div class="about-img">
+          <img src="assets/logo.jpg" />
+        </div>
+        <div class="about-content">
+          <h3>I'm Bernadeth Bañaga</h3>
+          <p>
+            I am a person who is positive about every aspect of life. There are
+            many things I like to do, to see, and to experience. I like to
+            dance, I like to read, I like business, and I like to be a model
+            someday. I have a creative mind and am always up for new challenges.
+            I am optimistic, well organized and always plan ahead to make sure I
+            manage my time well. A flexible, reliable and possess excellent time
+            keeping skills. I am skilled in dealing with problems in a
+            resourceful manner and negotiating to achieve beneficial agreement.
+            I am always enthusiastic to learn and undertake new challenges. An
+            ordinary person living healthy, happy, and contented.
+          </p>
+        </div>
+      </div>
+    </section>
+
+    <!-- Projects-->
+    <section id="services">
+      <div class="serviceHeading">
+        <h2>My Achievements</h2>
+
+      </div>
+      <div class="fullService" id="Project">
+        <div class="servicePart" style="background-image: url('assets/p1.jpg')">
+          <h3 class="ttle">
+            Graduation Ball 2019, Parade of Bearers Representative and Queen of
+            the Night held at Loboc, River, Resort.
+          </h3>
+        </div>
+        <div class="servicePart" style="background-image: url('assets/p2.jpg')">
+          <h3 class="ttle">
+            Miss Intramurals 2018, and Team Red Iron <br />
+            overall champion
+          </h3>
+        </div>
+        <div class="servicePart" style="background-image: url('assets/p3.jpg')">
+          <h3 class="ttle">
+            DISTRICT Metrobank-MTAP-DepEd- MATH CHALLENGE held at JAD Cultural
+            Center, Loboc, Bohol. (January 11, 2019)
+          </h3>
+        </div>
+        <div class="servicePart" style="background-image: url('assets/p4.jpg')">
+          <h3 class="ttle">
+            Mr and Miss Fitness 2019 –2nd place held at Oy Covered Court, Loboc,
+            Bohol.
+          </h3>
+        </div>
+      </div>
+    </section>
+
+    <!--Contact-->
+    <section class="form" id="contact">
+      <div class="contact-container">
+        <h2>Contact Us</h2>
+        
+        <form action="#" method="post">
+          <label for="name">Name:</label>
+          <input type="text" id="name" name="name" required />
+
+          <label for="email">Email:</label>
+          <input type="email" id="email" name="email" required />
+
+          <label for="message">Message:</label>
+          <textarea id="message" name="message" rows="4" required></textarea>
+
+          <button class="btn">Submit</button>
+        </form>
+      </div>
+    </section>
+    
+    <section class="footer1">
+      <footer class="footer">
+       
+        <div class="footer__social">
+          <a href="" target="_blank" class="footer__icon"
+            ><i class="bx bxl-facebook-circle"></i
+          ></a>
+          <a href="" target="_blank" class="footer__icon"
+            ><i class="bx bxl-instagram-alt"></i
+          ></a>
+          <a href="" target="_blank" class="footer__icon"
+            ><i class="bx bxl-github"></i
+          ></a>
+          <a href="" class="footer__icon"><i class="bx bxs-envelope"></i></a>
+        </div>
+        <p class="footer__copy">&#169; Bernadeth Bañaga. All rigths reserved</p>
+      </footer>
+    </section>
+    <script>
+      feather.replace();
+    </script>
+    <script src="assets/script.js"></script>
+  </body>
+</html>
